@@ -5,6 +5,10 @@
   outline: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 13px;
+}
 :root {
   --clr-violet: hsl(263, 55%, 52%);
   --clr-gray-blue: hsl(217, 19%, 35%);
@@ -108,7 +112,6 @@ body {
   box-shadow: 2px 2px 5px var(--clr-black-blue);
 }
 
-
 @media screen and (min-width: 1040px) {
   body {
     width: 100vw;
@@ -125,9 +128,11 @@ body {
   }
   .card-one {
     grid-column-start: 1;
+    grid-column-end: 2;
     grid-column-end: 3;
   }
   .card-two {
+    grid-column: 2/4;
     grid-column: 3/4;
   }
   .card-three {
