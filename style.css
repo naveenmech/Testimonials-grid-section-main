@@ -51,6 +51,12 @@ body {
   width: 2rem;
   height: 2rem;
 }
+.main {
+  display: grid;
+  width: 340px;
+  margin: 0 auto;
+  row-gap: 1.5rem;
+}
 
 .details-container {
   display: flex;
@@ -102,12 +108,6 @@ body {
   box-shadow: 2px 2px 5px var(--clr-black-blue);
 }
 
-.main {
-  display: grid;
-  width: 340px;
-  margin: 0 auto;
-  row-gap: 1.5rem;
-}
 
 @media screen and (min-width: 1040px) {
   body {
